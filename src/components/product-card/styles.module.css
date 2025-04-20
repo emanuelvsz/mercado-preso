@@ -1,0 +1,19 @@
+.card {
+    padding: 1rem; 
+    width: 250px; 
+    color: #000; 
+    display: flex;
+    flex-direction: column;
+    height: 160px;
+    justify-content: space-between;
+    background-color: #fff;
+    border-radius: 6px;
+}
+
+.descriptionText {
+    font-size: 13px;
+}
+
+.priceText {
+    font-size: 18px;
+}

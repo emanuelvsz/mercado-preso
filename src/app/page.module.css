@@ -1,0 +1,10 @@
+.page {
+  box-sizing: border-box;
+  padding: 0;
+  height: 100vh;
+  background-color: #ebebeb;
+}
+
+.body {
+  padding-inline: 10rem;
+}

@@ -1,0 +1,10 @@
+.carouselWrapper {
+    width: 100%;
+    padding: 1rem;
+  }
+  
+  .swiper-slide {
+    display: flex;
+    justify-content: center;
+  }
+  

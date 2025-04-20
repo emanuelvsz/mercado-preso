@@ -1,0 +1,13 @@
+.header {
+    width: 100%;
+    background-color: #009fb7;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    padding-inline: 10rem;
+}
+
+.logo {
+    border-radius: 50%;
+    cursor: pointer;
+}
