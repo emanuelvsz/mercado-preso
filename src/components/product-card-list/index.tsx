@@ -5,6 +5,8 @@ import ProductCard from "../product-card";
 import styles from './product-card.module.css';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
+import { Swiper as SwiperType } from 'swiper';
+
 import { Navigation, Pagination, A11y } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -18,7 +20,7 @@ const ProductCardList = () => {
     const prevRef = useRef<HTMLButtonElement | null>(null);
     const nextRef = useRef<HTMLButtonElement | null>(null);
 
-    const [swiperInstance, setSwiperInstance] = useState<any>(null);
+    const [swiperInstance, setSwiperInstance] = useState<SwiperType | null>(null);
 
     const updateNavigation = () => {
         if (swiperInstance) {
