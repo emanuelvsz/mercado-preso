@@ -1,6 +1,5 @@
 import { Product } from "@/domain/product";
 import styles from "./styles.module.css";
-import Image from "next/image";
 
 interface ProductCardProps {
     product: Product;

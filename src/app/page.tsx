@@ -1,7 +1,6 @@
 import Header from "@/components/header";
 import styles from "./page.module.css";
 import ProductCardList from "@/components/product-card-list";
-import { BiLeftArrow } from "react-icons/bi";
 
 export default function Home() {
   return (
