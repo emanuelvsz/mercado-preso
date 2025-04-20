@@ -8,3 +8,9 @@
 .body {
   padding-inline: 10rem;
 }
+
+@media (max-width: 968px) {
+  .body {
+    padding-inline: 2rem;
+  }
+}

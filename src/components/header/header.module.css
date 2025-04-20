@@ -4,10 +4,16 @@
     height: 15vh;
     display: flex;
     align-items: center;
-    padding-inline: 10rem;
+    padding-inline: 9.5rem;
 }
 
 .logo {
     border-radius: 50%;
     cursor: pointer;
 }
+
+@media (max-width: 968px) {
+    .header {
+      padding-inline: 2rem;
+    }
+  }
